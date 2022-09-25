@@ -27,6 +27,7 @@ body {
   background-position: center;
   backface-visibility: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 .card .front {
   background-image: url(images/front-face-bg.jpg);
