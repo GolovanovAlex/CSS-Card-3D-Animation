@@ -33,5 +33,42 @@ body {
 }
 
 .card .back {
+  transform: rotateY(180deg);
   background-image: url(images/back-face-bg.jpg);
+}
+.card:hover > .back {
+  transform: rotateY(0deg);
+}
+
+.card:hover > .front {
+  transform: rotateY(-180deg);
+}
+.card .back h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 45%;
+}
+.card .back p {
+  color: #f1f1f1;
+  font-size: 18px;
+}
+.card .icons {
+  margin-top: 20px;
+}
+.card .icons i {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  color: #e74723;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card .icons i:hover {
+  color: #fff;
+  background-color: #e74723;
 }
