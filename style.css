@@ -68,7 +68,6 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
-
 .card .icons i:hover {
   color: #fff;
   background-color: #e74723;
